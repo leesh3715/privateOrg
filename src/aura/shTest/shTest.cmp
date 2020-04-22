@@ -1,0 +1,12 @@
+<!--
+ - Created by ms on 2020-04-21.
+ -->
+
+<aura:component implements="force:appHostable,forceCommunity:availableForAllPageTypes"
+                controller="shTest">
+
+<p>하이하이</p>
+<input value="test"/>
+
+
+</aura:component>

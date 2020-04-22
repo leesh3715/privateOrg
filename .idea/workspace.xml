@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53452079-a935-4b5d-a6b5-040ddd01d86b" name="Default Changelist" comment="">
+    <list default="true" id="6071e908-47bd-4395-9e98-d359eba9ac4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/aura/shTest/shTest.cmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aura/shTest/shTest.cmp-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aura/shTest/shTestController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aura/shTest/shTestHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/shTest.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/shTest.cls-meta.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/illuminatedCloud.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/illuminatedCloud.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/New Connection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/New Connection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/zz_test123/zz_test123.cmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/zz_test123/zz_test123.cmp-meta.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ammN4hMgeyWS7ciWwav2oPsQuB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -76,6 +86,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tet" />
+    <MESSAGE value="Input tag 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input tag 추가" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2197" y="228" key="#Illuminated_Cloud" timestamp="1587368553778">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -89,6 +104,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="178" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587349134326" />
+    <state x="386" y="6" key="CommitChangelistDialog2" timestamp="1587540842511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="386" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587540842511" />
     <state x="2664" y="386" key="Github.CreatePullRequestDialog" timestamp="1587368683118">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -101,6 +120,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587349115069" />
+    <state x="484" y="203" key="git4idea.merge.GitPullDialog" timestamp="1587540761883">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1587540761883" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1587349390532">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
