@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6071e908-47bd-4395-9e98-d359eba9ac4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aura/shTest/shTest.cmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/shTest/shTest.cmp-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/shTest/shTestController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/shTest/shTestHelper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/shTest.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/shTest.cls-meta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New Connection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/New Connection.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/zz_test123/zz_test123.cmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/zz_test123/zz_test123.cmp-meta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +31,25 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="connectionWorkspaceSettings">
+          <map>
+            <entry key="LSH Org">
+              <value>
+                <ConnectionWorkspaceSettings>
+                  <option name="buildSuccessDatesBySourceRootRelativePath">
+                    <map>
+                      <entry key="AURA/SHTEST" value="1587540847914" />
+                    </map>
+                  </option>
+                </ConnectionWorkspaceSettings>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </ProjectWorkspaceSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ammN4hMgeyWS7ciWwav2oPsQuB" />
@@ -81,6 +91,14 @@
       <workItem from="1587368404476" duration="166000" />
       <workItem from="1587368572891" duration="40000" />
     </task>
+    <task id="LOCAL-00001" summary="Input tag 추가">
+      <created>1587540845942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587540845942</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +126,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="386" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587540842511" />
+    <state x="2086" y="295" width="1336" height="624" key="DiffContextDialog" timestamp="1587542496471">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2086" y="295" width="1336" height="624" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587542496471" />
     <state x="2664" y="386" key="Github.CreatePullRequestDialog" timestamp="1587368683118">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -116,6 +138,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587349692802" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587540866105">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587540866105" />
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587349115070">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
