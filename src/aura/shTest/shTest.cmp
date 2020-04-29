@@ -3,10 +3,83 @@
  -->
 
 <aura:component implements="force:appHostable,forceCommunity:availableForAllPageTypes"
-                controller="shTest">
+                controller="shTest" >
 
-<p>하이하이</p>
-<input value="test"/>
+    <aura:attribute name="labelMap" type="Map" description="label관련 data를 담는 attribute"/>
+
+    <div class="main">
+    <div class="inputFirst">  <!-- CSS는 따로 뺄 것-->
+        <h1 class="header">GUEST REGISTER</h1>
+
+        <lightning:input type="text" name="account" aura:id="account" label="회사명" value="{!v.reqData.name}" />
+
+        <lightning:input type="text" name="lastName" aura:id="lastName" label="LastName" value="{!v.reqData.lastName}"/>
+        <lightning:input type="text" name="" aura:id="firstName" label="firstName" value= "{!v.reqData.firstName}"  />
+        <lightning:input type="text" name="email" label="E-Mail"  value="{!v.reqData.email}"  />
+
+        <!--<lightning:input type="text" name="lastName" aura:id="lastName" label="LastName" value="{!v.reqData.lastName}" />
+        <lightning:input type="text" name="firstName" aura:id="firstName" label="firstName" value= "{!v.reqData.firstName}"  />
+        <lightning:input type="text" name="email" label="E-Mail"  value="{!v.reqData.email}"  />-->
+    </div>
+
+    <br/>
+
+
+    <!--반복문으로 될까>-->
+    <lightning:accordion aura:id="accordion" activeSectionName="">
+        <lightning:accordionSection name="A" label="개인정보 활용 동의">
+            <p>개인정보 활용 본문 내용</p>
+            <p>..</p>
+            <p>..</p>
+            <br/>
+            <aura:set attribute="actions">
+                <lightning:buttonMenu aura:id="menu" alternativeText="Show menu" iconSize="x-small" menuAlignment="right">
+                    <lightning:menuItem value="New" label="Menu Item One" />
+                    <lightning:menuItem value="Edit" label="Menu Item Two" />
+                </lightning:buttonMenu>
+            </aura:set>
+            <aura:set attribute="body">
+
+            </aura:set>
+            <lightning:input type="checkbox" name="isChecked1" label="개인정보 활용 동의" value="{!v.reqData.isChecked1}"/>
+        </lightning:accordionSection>
+        <lightning:accordionSection name="B" label="마케팅 활용 동의">
+            <p>마케팅 활용 본문 내용</p>
+            <p>..</p>
+            <p>..</p>
+            <br/>
+            <lightning:input type="checkbox" name="isChecked2" label="마케팅 활용 동의 " value="{!v.reqData.isChecked2}"/>
+        </lightning:accordionSection>
+        <lightning:accordionSection name="C" label="회사 약관">
+            <p>회사 활용 표시 본문 내용</p>
+            <p>..</p>
+            <p>..</p>
+            <br/>
+            <lightning:input type="checkbox" name="isChecked3" label="회사 약관" value="{!v.reqData.isChecked3}"/>
+        </lightning:accordionSection>
+    </lightning:accordion>
+
+        <br/><br/><br/><br/>
+        <div class="button">
+        <lightning:button variant="brand" label="가입" title="Brand action" onclick="{!c.isRegister}" />
+        <lightning:button variant="destructive" label="취소" title="Destructive action" onclick=""/>
+        </div>
+    </div>
+
+
+
+    <div style="height: 300px">
+        <!-- 여기는 검색 결과 값 띄워 줄 테이블 View-->
+        <h2 class="header">테이블</h2>
+            <lightning:datatable
+                    keyField="id"
+                    data="{! v.data }"
+                    columns="{! v.columns }"
+                    hideCheckboxColumn="true"/>
+
+
+    </div>
+
 
 
 </aura:component>

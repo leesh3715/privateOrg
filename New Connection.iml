@@ -28,17 +28,205 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+                            <option name="name" value="ChangePasswordController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChangePasswordControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesLandingController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesLandingControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesLoginController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesLoginControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesSelfRegConfirmController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesSelfRegConfirmControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesSelfRegController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesSelfRegControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ForgotPasswordController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ForgotPasswordControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LightningForgotPasswordController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LightningForgotPasswordControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LightningLoginFormController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LightningLoginFormControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LightningSelfRegisterController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LightningSelfRegisterControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="MyProfilePageController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="MyProfilePageControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteLoginController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteLoginControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteRegisterController" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteRegisterControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="shHeader" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="shTest" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexClass" />
+                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="SiteFooter" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteHeader" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteLogin" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SitePoweredBy" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="ApexComponent" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="AnswersHome" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="BandwidthExceeded" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChangePassword" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesLanding" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesLogin" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesSelfReg" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesSelfRegConfirm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CommunitiesTemplate" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Exception" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="FileNotFound" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ForgotPassword" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ForgotPasswordConfirm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="IdeasHome" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="InMaintenance" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="MyProfilePage" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteLogin" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteRegister" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteRegisterConfirm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteTemplate" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="StdExceptionTemplate" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Unauthorized" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="UnderConstruction" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="ApexPage" />
                     </MetadataType>
                     <MetadataType>
@@ -109,16 +297,45 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
-                            <option name="name" value="zz_test123" />
-                            <option name="selected" value="true" />
+                            <option name="name" value="Default" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Default1" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="Audience" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="forgotPassword" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="loginForm" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="selfRegister" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="setExpId" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="setStartUrl" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="shTest" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="shTest2" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="AuraDefinitionBundle" />
+                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="AuthProvider" />
@@ -163,6 +380,13 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="SelfSignedCert_21Apr2020_081226" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="Certificate" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -186,15 +410,25 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="name" value="CMSConnectSource" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Internal Zone" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="Community" />
-                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="name" value="CommunityTemplateDefinition" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="name" value="CommunityThemeDefinition" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="CompactLayout" />
@@ -409,6 +643,9 @@
                             <option name="name" value="Account" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="AccountBrand" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="AccountCleanInfo" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -458,6 +695,15 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CaseContactRole" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChannelProgram" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChannelProgramLevel" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChannelProgramMember" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ChatterActivity" />
@@ -607,6 +853,9 @@
                             <option name="name" value="MessagingSession" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="NetworkMember" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="OperatingHours" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -635,6 +884,18 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="OrgMetricScanSummary" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundAllocation" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundClaim" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundRequest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerMarketingBudget" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="PartnerRole" />
@@ -798,12 +1059,25 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="CustomSite" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
+                          <MetadataEntry>
+                            <option name="name" value="shTest" />
+                          </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard-Account" />
                           </MetadataEntry>
@@ -830,6 +1104,12 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard-Case" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="standard-ChannelProgram" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="standard-ChannelProgramLevel" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard-Chatter" />
@@ -941,6 +1221,18 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard-OtherUserProfile" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="standard-PartnerFundAllocation" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="standard-PartnerFundClaim" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="standard-PartnerFundRequest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="standard-PartnerMarketingBudget" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard-PartyConsent" />
@@ -1075,6 +1367,26 @@
                           <MetadataEntry>
                             <option name="folder" value="true" />
                             <option name="name" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/CommunityChangePasswordEmailTemplate" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/CommunityForgotPasswordEmailTemplate" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/CommunityLockoutEmailTemplate" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/CommunityVerificationEmailTemplate" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/CommunityWelcomeEmailTemplate" />
+                            <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="unfiled$public/MarketingProductInquiryResponse" />
@@ -1248,6 +1560,20 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+                            <option name="name" value="Dev1.Banned" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal.Banned" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="KeywordList" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
                             <option name="name" value="Account-Account %28Marketing%29 Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1258,6 +1584,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Account-Account Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="AccountBrand-Account Brand Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Asset-Asset Layout" />
@@ -1581,6 +1910,9 @@
                             <option name="name" value="Account.PlatinumandGoldSLACustomers" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="AccountBrand.All_Account_Brands" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Activity.AllActivities" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1627,6 +1959,18 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Case.MyOpenCases" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChannelProgram.All_Channel_Programs" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChannelProgram.My_Channel_Programs" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChannelProgramLevel.All_Channel_Program_Levels" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChannelProgramLevel.My_Channel_Program_Levels" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CollaborationGroup.All_ChatterGroups" />
@@ -1785,6 +2129,30 @@
                             <option name="name" value="Order.AllOrders" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="PartnerFundAllocation.All_Partner_Fund_Allocations" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundAllocation.My_Partner_Fund_Allocations" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundClaim.All_Partner_Fund_Claims" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundClaim.My_Partner_Fund_Claims" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundRequest.All_Partner_Fund_Requests" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundRequest.My_Partner_Fund_Requests" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerMarketingBudget.All_Partner_Marketing_Budgets" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerMarketingBudget.My_Partner_Marketing_Budgets" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="PartyConsent.All_PartyConsents" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1922,6 +2290,24 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="name" value="ManagedTopic" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="ManagedTopics" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
@@ -1963,6 +2349,44 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1.Block_banned_keywords" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1.Flag_banned" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1.Freeze_for_frequent_posting" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1.Replace_banned" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1.Review_the_first_post" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal.Block_banned_keywords" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal.Flag_banned" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal.Freeze_for_frequent_posting" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal.Replace_banned" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal.Review_the_first_post" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="ModerationRule" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
                       <option name="name" value="MutingPermissionSet" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -1975,6 +2399,47 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Default_Navigation" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Default_Navigation1" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Hi" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="NavigationMenu" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="Network" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="cbDev1" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="cbTestAccountPortal" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="NetworkBranding" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -2083,6 +2548,9 @@
                             <option name="name" value="Customer Portal Manager Standard" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Dev1 Profile" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="External Identity User" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -2093,6 +2561,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Gold Partner User" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Guest" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="High Volume Customer Portal User" />
@@ -2132,6 +2603,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="StandardAul" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal Profile" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Work%2Ecom Only User" />
@@ -2190,6 +2664,9 @@
                             <option name="name" value="FeedItem.NewTaskFromFeedItem" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="GuestCommunityCase" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="LogACall" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -2197,6 +2674,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="NewCase" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="NewCommunityCase" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="NewContact" />
@@ -2698,6 +3178,9 @@
                             <option name="name" value="Account" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="AccountBrand" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="ActivityRecurrence2" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -2732,6 +3215,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Case" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChannelProgram" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CleanLeadBackup" />
@@ -2824,6 +3310,18 @@
                             <option name="name" value="OrgDeleteRequest" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="PartnerFundAllocation" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundClaim" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundRequest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerMarketingBudget" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="PartyConsent" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -2893,6 +3391,16 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Dev11" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal1" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="SiteDotCom" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -3093,6 +3601,14 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="SiteSamples" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="StaticResource" />
                     </MetadataType>
                     <MetadataType>
@@ -3115,6 +3631,12 @@
                             <option name="name" value="Case" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="ChannelProgram" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChannelProgramLevel" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Contact" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -3134,6 +3656,18 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Order" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundAllocation" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundClaim" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerFundRequest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="PartnerMarketingBudget" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ResourceAbsence" />
@@ -3169,6 +3703,32 @@
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="TransactionSecurityPolicy" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1.Customer_Members" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1.Members_without_contribution" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dev1.Partner_and_Customer_members" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal.Customer_Members" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal.Members_without_contribution" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestAccountPortal.Partner_and_Customer_members" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="UserCriteria" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
