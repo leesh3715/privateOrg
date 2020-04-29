@@ -3,4 +3,5 @@
  -->
 
 <design:component>
+    <design:attribute name="Name" label="Name"/>
 </design:component>

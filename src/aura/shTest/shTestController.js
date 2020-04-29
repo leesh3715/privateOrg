@@ -3,26 +3,24 @@
  */
 ({
 
-    Search: function (component, event, helper) {
-        console.clear();
-        console.log(component.find('v.reqData'));
 
-        console.log(component.get('v.labelMap'));
-
-        console.log(event.getSource().get("v.reqData"));
-
-/*        alert("입력한 이름: " + event.getSource().get("v.label"));*/
-    },
-
+    /* 약관 동의 액션 function1 */
     handleShowActiveSectionName: function (cmp, event, helper) {
         alert(cmp.find("accordion").get('v.activeSectionName'));
     },
+
+    /* 약관 동의 액션 function2 */
     handleSetActiveSectionC: function (cmp) {
         cmp.find("accordion").set('v.activeSectionName', 'C');
     },
 
+    /* 회원 등록 function*/
     isRegister: function (cmp, event, helper) {
-        alert("You clicked: " + event.getSource().get("v.label"));
+        console.clear();
+        const e = event.getSource();
+
+        let test  = e.get('v.newAcc');
+        console.log(test);
 
     }
 })
