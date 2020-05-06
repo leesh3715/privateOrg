@@ -5,15 +5,16 @@
 <aura:component implements="force:appHostable,forceCommunity:availableForAllPageTypes"
                 controller="shTest" >
 
+
+
     <aura:attribute name="Name" type="String"/>
-    <aura:attribute name="contact" type="Contact" default="{'sobjectType':'Contact'}"/>
- <!--   <aura:attribute name="isChecked1" type="Boolean" />
-    <aura:attribute name="isChecked2" type="Boolean" />
-    <aura:attribute name="isChecked3" type="Boolean" />-->
+    <aura:attribute name="contact" type="Contact" default="{'sobjectType':'Contact',
+                                                             'isChecked1__c': false,
+                                                             'isChecked2__c': false,
+                                                             'isChecked3__c': false}"/>
+    <h1 class="header">GUEST REGISTER</h1><br/>
 
-
-    <h1 class="header">GUEST REGISTER</h1>
-    <lightning:recordEditForm objectApiName="Contact">
+    <lightning:recordEditForm objectApiName="Contact" >
         <div>
             <div>
                 <lightning:inputField aura:id="lastName" class="slds-size_1-of-2 right-side" fieldName="LastName" value="{!v.contact.LastName}"/>
@@ -22,6 +23,7 @@
         </div>
         <div >
             <div>
+
                 <lightning:inputField aura:id="account" class="slds-size_1-of-2 right-side" fieldName="AccountId" value="{!v.contact.AccountId}" disabled="false" />
                 <lightning:inputField aura:id="email" class="slds-size_1-of-2 left-side" fieldName="Email" value="{!v.contact.Email}"/>
 
@@ -30,27 +32,34 @@
         <div >
             <div>
 
-                <lightning:accordion aura:id="accordion">
+                <lightning:accordion aura:id="accordion" >
                     <lightning:accordionSection name="A" label="개인정보 활용 동의">
                         <p>개인정보 활용 본문 내용</p>
                         <p>..</p>
                         <p>..</p>
                         <br/>
-                        <lightning:inputField aura:id="isChecked1" class="slds-size_1-of-2 right-side" fieldName="isChecked1__c" checked="{!v.contact.isChecked1}" />
+                        {!v.isChecked1}
+
+                        <!--<lightning:inputField aura:id="isChecked1" class="slds-size_1-of-2 right-side" fieldName="isChecked1__c" value="{!v.contact.isChecked1__c}"  />-->
+                        <lightning:input label="개인정보 활용 동의" type="checkbox" class="slds-size_1-of-2 right-side" name="isChecked1" checked="{!v.contact.isChecked1__c}" />
+
                     </lightning:accordionSection>
                     <lightning:accordionSection name="B" label="마케팅 활용 동의">
                         <p>마케팅 활용 본문 내용</p>
                         <p>..</p>
                         <p>..</p>
                         <br/>
-                        <lightning:inputField aura:id="isChecked2" class="slds-size_1-of-2 right-side" fieldName="isChecked2__c" value="{!v.contact.isChecked2}"/>
+                        <!--<lightning:inputField aura:id="isChecked2" class="slds-size_1-of-2 right-side" fieldName="isChecked2__c" value="{!v.contact.isChecked2__c}"/>-->
+                        <lightning:input label="마케팅 활용 동의" type="checkbox" class="slds-size_1-of-2 right-side" name="isChecked2" checked="{!v.contact.isChecked2__c}" />
+
                     </lightning:accordionSection>
                     <lightning:accordionSection name="C" label="회사 약관">
                         <p>회사 활용 표시 본문 내용</p>
                         <p>..</p>
                         <p>..</p>
                         <br/>
-                        <lightning:inputField aura:id="isChecked3" class="slds-size_1-of-2 right-side" fieldName="isChecked3__c" value="{!v.contact.isChecked3}"/>
+                        <!--<lightning:inputField aura:id="isChecked3" class="slds-size_1-of-2 right-side" fieldName="isChecked3__c" checked="{!v.contact.isChecked3__c}"/>-->
+                        <lightning:input label="회사 약관 활용 동의" type="checkbox" class="slds-size_1-of-2 right-side" name="isChecked3" checked="{!v.contact.isChecked3__c}" />
                     </lightning:accordionSection>
                 </lightning:accordion>
 

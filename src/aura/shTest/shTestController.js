@@ -2,23 +2,29 @@
  * Created by ms on 2020-04-21.
  */
 ({
+    doInit: function(cmp, event,helper){
+
+
+
+    },
+
     /* 회원 등록(가입) function*/
     isRegister: function (cmp, event, helper) {
         console.clear();
 
         let newCon = cmp.get('v.contact');
-        let isChecked1 = cmp.get('v.isChecked');
-        let isChecked2 = cmp.get('v.isChecked2');
-        let isChecked3 = cmp.get('v.isChecked3');
+
+        console.log(JSON.parse(JSON.stringify(newCon)));
 
         console.log('input value?');
         console.log(newCon.FirstName);
         console.log(newCon.LastName);
         console.log(newCon.AccountId);
-        console.log(newCon.isChecked1);
-        console.log(newCon.isChecked2);
-        console.log(newCon.isChecked3);
+        console.log(newCon.isChecked1__c);
+        console.log(newCon.isChecked2__c);
+        console.log(newCon.isChecked3__c);
         console.log('input value? end');
+
 
     },
 
