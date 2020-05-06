@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6071e908-47bd-4395-9e98-d359eba9ac4c" name="Default Changelist" comment="">
+    <list default="true" id="6071e908-47bd-4395-9e98-d359eba9ac4c" name="Default Changelist" comment="개발과제1 &#10;recordEditform 을 사용할 때 checkbox 값 X -&gt; 해결">
+      <change afterPath="$PROJECT_DIR$/src/aura/shTest/lacComBaseHelper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/shTest/shTest.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/shTest/shTest.cmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/shTest/shTestController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/shTest/shTestController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/shTest/shTestHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/shTest/shTestHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/shTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/shTest.cls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,8 @@
                 <ConnectionWorkspaceSettings>
                   <option name="buildSuccessDatesBySourceRootRelativePath">
                     <map>
-                      <entry key="AURA/SHTEST" value="1588747269542" />
+                      <entry key="AURA/SHTEST" value="1588751312562" />
+                      <entry key="CLASSES/SHTEST.CLS" value="1588750700000" />
                     </map>
                   </option>
                 </ConnectionWorkspaceSettings>
@@ -1394,6 +1395,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ms\IdeaProjects\LSH Org\src\aura\shTest" />
+      <recent name="C:\Users\ms\IdeaProjects\LSH Org\src\Base" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ms\IdeaProjects\LSH Org\src\aura\shTest" />
     </key>
@@ -1420,7 +1425,7 @@
       <workItem from="1587368572891" duration="40000" />
       <workItem from="1587709494605" duration="1998000" />
       <workItem from="1588116344419" duration="23206000" />
-      <workItem from="1588721047885" duration="19722000" />
+      <workItem from="1588721047885" duration="24334000" />
     </task>
     <task id="LOCAL-00001" summary="Input tag 추가">
       <created>1587540845942</created>
@@ -1457,7 +1462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588731790363</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="개발과제1 &#10;recordEditform 을 사용할 때 checkbox 값 X -&gt; 해결">
+      <created>1588747399175</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588747399175</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1470,7 +1482,8 @@
     <MESSAGE value="개발과제1&#10;회원가입 UI 디자인1" />
     <MESSAGE value="개발과제1&#10;name / value 명 수정" />
     <MESSAGE value="개발과제1&#10;input value -&gt; controller &#10;(체크박스 값이 안넘어감)" />
-    <option name="LAST_COMMIT_MESSAGE" value="개발과제1&#10;input value -&gt; controller &#10;(체크박스 값이 안넘어감)" />
+    <MESSAGE value="개발과제1 &#10;recordEditform 을 사용할 때 checkbox 값 X -&gt; 해결" />
+    <option name="LAST_COMMIT_MESSAGE" value="개발과제1 &#10;recordEditform 을 사용할 때 checkbox 값 X -&gt; 해결" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="142" key="#Illuminated_Cloud" timestamp="1588125044809">
@@ -1492,10 +1505,10 @@
     </state>
     <state x="2472" y="178" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588132437644" />
     <state x="134" y="22" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588145570414" />
-    <state x="2160" y="6" width="1401" height="1004" key="CommitChangelistDialog2" timestamp="1588731787454">
+    <state x="2160" y="6" width="1401" height="1004" key="CommitChangelistDialog2" timestamp="1588747422857">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2160" y="6" width="1401" height="1004" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588731787454" />
+    <state x="2160" y="6" width="1401" height="1004" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588747422857" />
     <state x="386" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587540842511" />
     <state x="2086" y="295" width="1336" height="624" key="DiffContextDialog" timestamp="1587542496471">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -1515,10 +1528,10 @@
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588120089994" />
     <state x="369" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587712128070" />
-    <state x="2371" y="183" key="Vcs.Push.Dialog.v2" timestamp="1588731801342">
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2" timestamp="1588747403445">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588731801342" />
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588747403445" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587540866105" />
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587349115070">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -1528,6 +1541,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2521" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588726196317" />
+    <state x="2571" y="116" width="617" height="807" key="find.popup" timestamp="1588749234909">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2571" y="116" width="617" height="807" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588749234909" />
     <state x="484" y="203" key="git4idea.merge.GitPullDialog" timestamp="1587540761883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
