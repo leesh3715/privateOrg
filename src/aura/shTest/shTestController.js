@@ -2,7 +2,25 @@
  * Created by ms on 2020-04-21.
  */
 ({
+    /* 회원 등록(가입) function*/
+    isRegister: function (cmp, event, helper) {
+        console.clear();
 
+        let newCon = cmp.get('v.contact');
+        let isChecked1 = cmp.get('v.isChecked');
+        let isChecked2 = cmp.get('v.isChecked2');
+        let isChecked3 = cmp.get('v.isChecked3');
+
+        console.log('input value?');
+        console.log(newCon.FirstName);
+        console.log(newCon.LastName);
+        console.log(newCon.AccountId);
+        console.log(newCon.isChecked1);
+        console.log(newCon.isChecked2);
+        console.log(newCon.isChecked3);
+        console.log('input value? end');
+
+    },
 
     /* 약관 동의 액션 function1 */
     handleShowActiveSectionName: function (cmp, event, helper) {
@@ -12,15 +30,5 @@
     /* 약관 동의 액션 function2 */
     handleSetActiveSectionC: function (cmp) {
         cmp.find("accordion").set('v.activeSectionName', 'C');
-    },
-
-    /* 회원 등록 function*/
-    isRegister: function (cmp, event, helper) {
-        console.clear();
-        const e = event.getSource();
-
-        let test  = e.get('v.newAcc');
-        console.log(test);
-
     }
 })

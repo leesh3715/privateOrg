@@ -6,21 +6,75 @@
                 controller="shTest" >
 
     <aura:attribute name="Name" type="String"/>
-    <aura:attribute name="newAcc" type="Account" default="{}" description="외부 사용자의 입력 값(contact 값도 받음)"/>
+    <aura:attribute name="contact" type="Contact" default="{'sobjectType':'Contact'}"/>
+ <!--   <aura:attribute name="isChecked1" type="Boolean" />
+    <aura:attribute name="isChecked2" type="Boolean" />
+    <aura:attribute name="isChecked3" type="Boolean" />-->
 
-    <!-- CSS는 따로 뺄 것-->
+
+    <h1 class="header">GUEST REGISTER</h1>
+    <lightning:recordEditForm objectApiName="Contact">
+        <div>
+            <div>
+                <lightning:inputField aura:id="lastName" class="slds-size_1-of-2 right-side" fieldName="LastName" value="{!v.contact.LastName}"/>
+                <lightning:inputField aura:id="firstName" class="slds-size_1-of-2 left-side" fieldName="FirstName" value="{!v.contact.FirstName}"/>
+            </div>
+        </div>
+        <div >
+            <div>
+                <lightning:inputField aura:id="account" class="slds-size_1-of-2 right-side" fieldName="AccountId" value="{!v.contact.AccountId}" disabled="false" />
+                <lightning:inputField aura:id="email" class="slds-size_1-of-2 left-side" fieldName="Email" value="{!v.contact.Email}"/>
+
+            </div>
+        </div>
+        <div >
+            <div>
+
+                <lightning:accordion aura:id="accordion">
+                    <lightning:accordionSection name="A" label="개인정보 활용 동의">
+                        <p>개인정보 활용 본문 내용</p>
+                        <p>..</p>
+                        <p>..</p>
+                        <br/>
+                        <lightning:inputField aura:id="isChecked1" class="slds-size_1-of-2 right-side" fieldName="isChecked1__c" checked="{!v.contact.isChecked1}" />
+                    </lightning:accordionSection>
+                    <lightning:accordionSection name="B" label="마케팅 활용 동의">
+                        <p>마케팅 활용 본문 내용</p>
+                        <p>..</p>
+                        <p>..</p>
+                        <br/>
+                        <lightning:inputField aura:id="isChecked2" class="slds-size_1-of-2 right-side" fieldName="isChecked2__c" value="{!v.contact.isChecked2}"/>
+                    </lightning:accordionSection>
+                    <lightning:accordionSection name="C" label="회사 약관">
+                        <p>회사 활용 표시 본문 내용</p>
+                        <p>..</p>
+                        <p>..</p>
+                        <br/>
+                        <lightning:inputField aura:id="isChecked3" class="slds-size_1-of-2 right-side" fieldName="isChecked3__c" value="{!v.contact.isChecked3}"/>
+                    </lightning:accordionSection>
+                </lightning:accordion>
+
+            </div>
+        </div>
+    </lightning:recordEditForm>
+
+    <lightning:button class="slds-m-top_small" variant="brand" type="submit" label="가입" onclick="{!c.isRegister}"/>
+    <lightning:button  class="slds-m-top_small" variant="destructive" label="취소" title="Destructive action" onclick=""/>
+
+
+    <!--&lt;!&ndash; CSS는 따로 뺄 것&ndash;&gt;
     <div class="main">
     <div class="inputFirst">
         <h1 class="header">GUEST REGISTER</h1>
 
-        <lightning:input type="text" name="AccountId" aura:id="name" label="회사명" value="{!v.newAcc.Name}" />
+        <lightning:input type="text" name="Name" aura:id="name" label="회사명" value="{!v.newAcc.Name}" />
         <lightning:input type="text" name="LastName" aura:id="lastName" label="LastName" value="{!v.newAcc.Contacts.LastName}"/>
         <lightning:input type="text" name="FirstName" aura:id="firstName" label="FirstName" value= "{!v.newAcc.Contacts.FirstName}"  />
         <lightning:input type="text" name="Email" aura:id="email" label="E-Mail"  value="{!v.newAcc.Contact.Email}"  />
-        <!--<lightning:input type="text" name="lastName" aura:id="lastName" label="LastName" value="{!v.reqData.lastName}" />-->
+        &lt;!&ndash;<lightning:input type="text" name="lastName" aura:id="lastName" label="LastName" value="{!v.reqData.lastName}" />&ndash;&gt;
     </div>
     <br/>
-    <!--반복문으로 될까? -->
+    &lt;!&ndash;반복문으로 될까? &ndash;&gt;
     <lightning:accordion aura:id="accordion">
         <lightning:accordionSection name="A" label="개인정보 활용 동의">
             <p>개인정보 활용 본문 내용</p>
@@ -50,6 +104,6 @@
         <lightning:button variant="brand" label="가입" title="Brand action" value="{!v.newAcc}" onclick="{!c.isRegister}" />
         <lightning:button variant="destructive" label="취소" title="Destructive action" onclick=""/>
         </div>
-    </div>
+    </div>-->
 
 </aura:component>
