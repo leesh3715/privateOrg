@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6071e908-47bd-4395-9e98-d359eba9ac4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/shTest/shTestHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/shTest/shTestHelper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/shTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/shTest.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/요구사항 정의" beforeDir="false" afterPath="$PROJECT_DIR$/src/요구사항 정의" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
       <ProjectWorkspaceSettings>
         <option name="anonymousApexSettings">
           <AnonymousApexSettings>
-            <option name="documentText" value="Id userLicenseId = [ select Id from UserLicense limit 1].id;&#10;&#10;System.debug('1111'+ userLicenseId);&#10;&#10;" />
+            <option name="documentText" value="&#10;&#10;" />
             <option name="splitterProportion" value="0.66204506" />
           </AnonymousApexSettings>
         </option>
@@ -84,7 +82,7 @@
                       <entry key="CLASSES/SHHOME.CLS" value="1588813181000" />
                       <entry key="CLASSES/SHLOGIN.CLS" value="1588810860000" />
                       <entry key="CLASSES/SHLOGIN2.CLS" value="1588812795146" />
-                      <entry key="CLASSES/SHTEST.CLS" value="1588830858673" />
+                      <entry key="CLASSES/SHTEST.CLS" value="1588838342456" />
                     </map>
                   </option>
                   <option name="lastBuildScope" value="CONTEXT" />
@@ -1547,7 +1545,7 @@
       <workItem from="1588721047885" duration="24719000" />
       <workItem from="1588807431389" duration="2742000" />
       <workItem from="1588810214248" duration="301000" />
-      <workItem from="1588810585320" duration="14696000" />
+      <workItem from="1588810585320" duration="19945000" />
     </task>
     <task id="LOCAL-00001" summary="Input tag 추가">
       <created>1587540845942</created>
@@ -1612,7 +1610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588817193540</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Contact 를 추가 할때 User 를 같이 추가 하는데에 있어 오류&#10;Required fields are missing: [Email, Time Zone, Locale, Email Encoding, Language]">
+      <created>1588831142426</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588831142426</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1629,7 +1634,8 @@
     <MESSAGE value="register page / insert contact -&gt; homeURL return 완료 &#10;(home url을 따로 빼서 사용하는게 좋을 듯)" />
     <MESSAGE value="메인 Home과 Login Page 추가&#10;(Home에서 각 btn에 주소 URL을 걸면 URL은 유효하나 연결이 안됨, 이렇게는 불러오지 못하는 듯??)" />
     <MESSAGE value="요구 사항 정의 File 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="요구 사항 정의 File 추가" />
+    <MESSAGE value="Contact 를 추가 할때 User 를 같이 추가 하는데에 있어 오류&#10;Required fields are missing: [Email, Time Zone, Locale, Email Encoding, Language]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact 를 추가 할때 User 를 같이 추가 하는데에 있어 오류&#10;Required fields are missing: [Email, Time Zone, Locale, Email Encoding, Language]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="142" key="#Illuminated_Cloud" timestamp="1588125044809">
