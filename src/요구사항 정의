@@ -18,3 +18,4 @@ textarea value에 약관(Terms) 오브젝트에서 Text Area 값을 가지고 �
 
 User 와 Terms 가 Lookup 해당 유저들의 약관 정보(해당 버전)를 Terms에 저장 한다.
 User 와 Contact가 Lookup 해당 유저의 lastname, name
+

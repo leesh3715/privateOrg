@@ -35,11 +35,12 @@ public with sharing class shTest {
         insert contact;
         insert newUser;
     }
-        String homeURL = 'https://shtest123-developer-edition.ap17.force.com/Dev1/s/home';
+        String homeURL = 'https://shtest123-developer-edition.ap17.force.com/Dev1/s/shhome';
 
         return homeURL;
     }
 
+    // 랜덤 스트링을 생성하기 위한 메서드
     private static String randomString() {
         return '' + math.rint( math.random() * 100000 );
     }

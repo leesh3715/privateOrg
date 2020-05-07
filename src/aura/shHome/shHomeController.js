@@ -18,14 +18,14 @@
 ({
     goLogin:function (cmp,event,helper) {
 
-        let LoginURL = window.location.protocol + "//" + window.location.host + "/"+ "/Dev1/s/shlogin";
+        let LoginURL = window.location.protocol + "//" + window.location.host + "/"+ "Dev1/s/shlogin";
 
         window.location.href = LoginURL;
     },
 
     goRegister:function (cmp,event,helper) {
 
-        let RegisterURL = window.location.protocol + "//" + window.location.host + "/"+ "/Dev1/s/shregister";
+        let RegisterURL = window.location.protocol + "//" + window.location.host + "/"+ "Dev1/s/shregister";
 
         window.location.href = RegisterURL;
     },
