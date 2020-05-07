@@ -1,0 +1,29 @@
+<!--
+ - Created by ms on 2020-05-07.
+ -->
+
+
+<aura:component implements="force:appHostable,forceCommunity:availableForAllPageTypes"
+                controller="shLogin2" >
+
+
+
+        <aura:attribute name="contact" type="Contact" default="{'sobjectType':'Contact'}"/>
+        <h1 class="header">GUEST LOGIN</h1><br/>
+        <lightning:recordEditForm objectApiName="Contact" >
+            <div>
+                <div>
+                    <lightning:inputField aura:id="lastName" class="slds-size_1-of-2 right-side" fieldName="LastName" value="{!v.contact.LastName}"/>
+                    <lightning:inputField aura:id="firstName" class="slds-size_1-of-2 left-side" fieldName="FirstName" value="{!v.contact.FirstName}"/>
+                </div>
+            </div>
+            <div >
+                <div>
+                    <lightning:inputField aura:id="email" class="slds-size_1-of-2 left-side" fieldName="Email" value="{!v.contact.Email}"/>
+                </div>
+            </div>
+        </lightning:recordEditForm>
+
+        <lightning:button class="slds-m-top_small" variant="brand" type="submit" label="LOGIN" onclick="{!c.isLogin}"/>
+        <lightning:button  class="slds-m-top_small" variant="destructive" label="CANCEL" title="Destructive action" onclick=""/>
+    </aura:component>

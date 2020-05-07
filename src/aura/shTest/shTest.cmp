@@ -71,48 +71,4 @@
     <lightning:button  class="slds-m-top_small" variant="destructive" label="취소" title="Destructive action" onclick=""/>
 
 
-    <!--&lt;!&ndash; CSS는 따로 뺄 것&ndash;&gt;
-    <div class="main">
-    <div class="inputFirst">
-        <h1 class="header">GUEST REGISTER</h1>
-
-        <lightning:input type="text" name="Name" aura:id="name" label="회사명" value="{!v.newAcc.Name}" />
-        <lightning:input type="text" name="LastName" aura:id="lastName" label="LastName" value="{!v.newAcc.Contacts.LastName}"/>
-        <lightning:input type="text" name="FirstName" aura:id="firstName" label="FirstName" value= "{!v.newAcc.Contacts.FirstName}"  />
-        <lightning:input type="text" name="Email" aura:id="email" label="E-Mail"  value="{!v.newAcc.Contact.Email}"  />
-        &lt;!&ndash;<lightning:input type="text" name="lastName" aura:id="lastName" label="LastName" value="{!v.reqData.lastName}" />&ndash;&gt;
-    </div>
-    <br/>
-    &lt;!&ndash;반복문으로 될까? &ndash;&gt;
-    <lightning:accordion aura:id="accordion">
-        <lightning:accordionSection name="A" label="개인정보 활용 동의">
-            <p>개인정보 활용 본문 내용</p>
-            <p>..</p>
-            <p>..</p>
-            <br/>
-            <lightning:input type="checkbox" name="isChecked1" label="개인정보 활용 동의" value="{!v.newAcc.Contacts.isChecked1}"/>
-        </lightning:accordionSection>
-        <lightning:accordionSection name="B" label="마케팅 활용 동의">
-            <p>마케팅 활용 본문 내용</p>
-            <p>..</p>
-            <p>..</p>
-            <br/>
-            <lightning:input type="checkbox" name="isChecked2" label="마케팅 활용 동의 " value="{!v.newAcc.Contacts.isChecked2}"/>
-        </lightning:accordionSection>
-        <lightning:accordionSection name="C" label="회사 약관">
-            <p>회사 활용 표시 본문 내용</p>
-            <p>..</p>
-            <p>..</p>
-            <br/>
-            <lightning:input type="checkbox" name="isChecked3" label="회사 약관" value="{!v.newAcc.Contacts.isChecked3}"/>
-        </lightning:accordionSection>
-    </lightning:accordion>
-
-        <br/><br/>
-        <div class="button">
-        <lightning:button variant="brand" label="가입" title="Brand action" value="{!v.newAcc}" onclick="{!c.isRegister}" />
-        <lightning:button variant="destructive" label="취소" title="Destructive action" onclick=""/>
-        </div>
-    </div>-->
-
 </aura:component>

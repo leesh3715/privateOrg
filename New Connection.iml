@@ -88,6 +88,17 @@
                             <option name="name" value="MyProfilePageControllerTest" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="shHeader" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="shLogin" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="shTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="SiteLoginController" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -100,10 +111,11 @@
                             <option name="name" value="SiteRegisterControllerTest" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="shHeader" />
+                            <option name="name" value="shLogin2" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="shTest" />
+                            <option name="name" value="shHome" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -116,118 +128,94 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="SiteFooter" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SiteHeader" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SiteLogin" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SitePoweredBy" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexComponent" />
+                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="AnswersHome" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="BandwidthExceeded" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ChangePassword" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CommunitiesLanding" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CommunitiesLogin" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CommunitiesSelfReg" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CommunitiesSelfRegConfirm" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CommunitiesTemplate" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Exception" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="FileNotFound" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ForgotPassword" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ForgotPasswordConfirm" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="IdeasHome" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="InMaintenance" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="MyProfilePage" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SiteLogin" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SiteRegister" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SiteRegisterConfirm" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SiteTemplate" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="StdExceptionTemplate" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Unauthorized" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="UnderConstruction" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexPage" />
+                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="ApexTestSuite" />
@@ -235,6 +223,7 @@
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="ApexTrigger" />
+                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
@@ -326,7 +315,19 @@
                             <option name="name" value="setStartUrl" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="shBase" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="shTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="shLogin2" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="shHome" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -415,17 +416,19 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Internal Zone" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="Community" />
+                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="CommunityTemplateDefinition" />
+                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="CommunityThemeDefinition" />
+                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="CompactLayout" />
@@ -530,13 +533,13 @@
                             <option name="name" value="Account.NumberofLocations__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Account.SLA__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Account.SLAExpirationDate__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Account.SLASerialNumber__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Account.SLA__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Account.UpsellOpportunity__c" />
@@ -1184,6 +1187,9 @@
                             <option name="name" value="standard-Forecasting3" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="standard-home" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="standard-Idea" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1271,6 +1277,9 @@
                             <option name="name" value="standard-RefundLinePayment" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="standard-report" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="standard-RevenueElement" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1298,19 +1307,13 @@
                             <option name="name" value="standard-UserProvisioningRequest" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="standard-Workspace" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="standard-WorkType" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard-WorkTypeGroup" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="standard-Workspace" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="standard-home" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="standard-report" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1390,18 +1393,6 @@
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
-                            <option name="parentFolder" value="unfiled$public" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
-                            <option name="parentFolder" value="unfiled$public" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
-                            <option name="parentFolder" value="unfiled$public" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="unfiled$public/SalesNewCustomerEmail" />
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
@@ -1430,11 +1421,23 @@
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="unfiled$public/SupportSelfServiceResetPassword" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                         </list>
@@ -2790,10 +2793,10 @@
                             <option name="name" value="CFO" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="COO" />
+                            <option name="name" value="ChannelSalesTeam" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="ChannelSalesTeam" />
+                            <option name="name" value="COO" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CustomerSupportInternational" />
@@ -2974,10 +2977,10 @@
                             <option name="name" value="FieldService" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="FileUploadAndDownloadSecurity" />
+                            <option name="name" value="FilesConnect" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="FilesConnect" />
+                            <option name="name" value="FileUploadAndDownloadSecurity" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Flow" />
@@ -3544,13 +3547,13 @@
                             <option name="name" value="Salutation" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="ServTerrMemRoleType" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="ServiceAppointmentStatus" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ServiceContractApprovalStatus" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ServTerrMemRoleType" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SocialPostClassification" />
@@ -3602,11 +3605,11 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="SiteSamples" />
-                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="StaticResource" />
+                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="SynonymDictionary" />
