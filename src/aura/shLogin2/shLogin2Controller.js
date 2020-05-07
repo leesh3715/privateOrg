@@ -21,6 +21,8 @@
         console.clear();
         let loginVal = cmp.get('v.contact');
 
+
+
     }
 
 })
