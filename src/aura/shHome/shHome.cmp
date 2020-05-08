@@ -8,8 +8,9 @@
                 controller="shHome" >
 
     <div align="center">
+
     <h1>HOME</h1>
-    <lightning:button class="slds-m-top_small" variant="brand" type="submit" label="Login Page" onclick="{!c.goLogin}" href=""/>
+    <lightning:button class="slds-m-top_small" variant="brand" type="submit" label="Login Page" onclick="{!c.goLogin}"/>
     <lightning:button  class="slds-m-top_small" variant="destructive" label="Register Page" title="Destructive action" onclick="{!c.goRegister}"/>
     </div>
 </aura:component>

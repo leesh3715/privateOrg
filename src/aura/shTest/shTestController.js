@@ -21,7 +21,7 @@
         console.clear();
 
         // 회원 가입 후 리턴하기 위한 HOME URL -> 헬퍼에서 리턴할수 있을 듯
-        let HomeURL = window.location.protocol + "//" + window.location.host + "/"+ "/Dev1/shhome";
+        let HomeURL = window.location.protocol + "//" + window.location.host + "/"+ "Dev1/s/shhome";
         //https://sh0518-dev-ed.livepreview.salesforce-communities.com/
         //https://shtest123-developer-edition.ap17.force.com/Dev1/s/
         //https://shtest123-developer-edition.ap17.force.com/Dev1/s/shregister

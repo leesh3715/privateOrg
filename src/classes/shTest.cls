@@ -4,10 +4,8 @@
 
 public with sharing class shTest {
     @AuraEnabled
-        public static String register(Contact contact) {
+        public static void register(Contact contact) {
         System.debug('contact : ' + JSON.serializePretty(contact));
-
-
 
         User newUser = new User();
         newUser.ContactId = contact.Id;
@@ -18,26 +16,18 @@ public with sharing class shTest {
         //newUser.UserLicense.Id ='1002x000000ldkIAAQ';
         newUser.ProfileId = '00e2x0000011TIb';
         newUser.Email = contact.Email;
-
         newUser.EmailEncodingKey='UTF-8';
         newUser.TimeZoneSidKey = 'Asia/Seoul';
-
-
         newUser.LocaleSidKey='eu';
         newUser.LanguageLocaleKey='en_US';
 
-//        Required fields are missing: [Email, Time Zone, Locale, Email Encoding, Language]
-
         //1002x000000ldkIAAQ Identity
-        //2F00e2x0000011TIb IdentityUser
+        //00e2x0000011TIb IdentityUser
         if(contact != null) {
-
         insert contact;
         insert newUser;
-    }
-        String homeURL = 'https://shtest123-developer-edition.ap17.force.com/Dev1/s/shhome';
+        }
 
-        return homeURL;
     }
 
     // 랜덤 스트링을 생성하기 위한 메서드

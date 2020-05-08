@@ -18,5 +18,13 @@
  ****************************************************************************************/
 
 public with sharing class shLogin2 {
+    @AuraEnabled
+    public static void Login(Contact contact) {
 
+        if(contact !=null){
+            List<User> Users = [ SELECT LastName,FirstName,Email From User WHERE Email =:contact.email AND LastName =:contact.LastName LIMIT 1];
+        }
+
+
+    }
 }

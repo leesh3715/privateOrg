@@ -19,10 +19,33 @@
     isLogin:function (cmp,event,helper) {
 
         console.clear();
-        let loginVal = cmp.get('v.contact');
+
+        try{
+            let loginVal = cmp.get('v.contact');
+            console.log('try문 시작');
+            helper.apex(
+                cmp, 'isLogin', 'Login', {'contact':loginVal}
+            ).then(function (resData, response) {
+                console.log(resData);
+                console.log(response);
+
+                helper.gfn_toast('정상적으로 저장되었습니다.', 's');
+                $A.enqueueAction(cmp.get('c.isCancel'));
+                helper.gfn_refresh();
 
 
+                window.location.href = HomeURL;
+            }).catch(function (error, response) {
+                helper.gfn_ApexErrorHandle(error, response);
+                console.log(error);
+            });
+        }catch(e){console.log(e);}
 
+    },
+
+    isCancel: function (cmp,event,helper) {
+
+        window.history.forward();
     }
 
 })

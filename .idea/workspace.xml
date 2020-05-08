@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6071e908-47bd-4395-9e98-d359eba9ac4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/shHome/shHomeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/shHome/shHomeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/shHome/shHome.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/shHome/shHome.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/shLogin2/shLogin2.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/shLogin2/shLogin2.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/shLogin2/shLogin2Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/shLogin2/shLogin2Controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/shTest/shTestController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/shTest/shTestController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/shLogin2.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/shLogin2.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/shTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/shTest.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/요구사항 정의" beforeDir="false" afterPath="$PROJECT_DIR$/src/요구사항 정의" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +81,13 @@
                   <option name="buildSuccessDatesBySourceRootRelativePath">
                     <map>
                       <entry key="AURA/SHBASE" value="1588810860000" />
-                      <entry key="AURA/SHHOME" value="1588815200000" />
-                      <entry key="AURA/SHLOGIN2" value="1588816646000" />
-                      <entry key="AURA/SHTEST" value="1588830809000" />
+                      <entry key="AURA/SHHOME" value="1588840008397" />
+                      <entry key="AURA/SHLOGIN2" value="1588895858457" />
+                      <entry key="AURA/SHTEST" value="1588839969000" />
                       <entry key="CLASSES/SHHOME.CLS" value="1588813181000" />
                       <entry key="CLASSES/SHLOGIN.CLS" value="1588810860000" />
-                      <entry key="CLASSES/SHLOGIN2.CLS" value="1588812795146" />
-                      <entry key="CLASSES/SHTEST.CLS" value="1588838841572" />
+                      <entry key="CLASSES/SHLOGIN2.CLS" value="1588895853755" />
+                      <entry key="CLASSES/SHTEST.CLS" value="1588894548077" />
                     </map>
                   </option>
                   <option name="lastBuildScope" value="CONTEXT" />
@@ -1511,7 +1514,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1547,7 +1550,7 @@
       <workItem from="1588721047885" duration="24719000" />
       <workItem from="1588807431389" duration="2742000" />
       <workItem from="1588810214248" duration="301000" />
-      <workItem from="1588810585320" duration="20742000" />
+      <workItem from="1588810585320" duration="24344000" />
     </task>
     <task id="LOCAL-00001" summary="Input tag 추가">
       <created>1587540845942</created>
@@ -1626,7 +1629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588838714204</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="# return URL 수정">
+      <created>1588839429456</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588839429456</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1645,13 +1655,14 @@
     <MESSAGE value="요구 사항 정의 File 추가" />
     <MESSAGE value="Contact 를 추가 할때 User 를 같이 추가 하는데에 있어 오류&#10;Required fields are missing: [Email, Time Zone, Locale, Email Encoding, Language]" />
     <MESSAGE value="# Required fields are missing: [Email, Time Zone, Locale, Email Encoding, Language]&#10;-&gt; 해결(picklist value 값들을 찾아서  임의로 넣어줌)&#10;Contact 추가 시 같이 User 로 추가 O" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Required fields are missing: [Email, Time Zone, Locale, Email Encoding, Language]&#10;-&gt; 해결(picklist value 값들을 찾아서  임의로 넣어줌)&#10;Contact 추가 시 같이 User 로 추가 O" />
+    <MESSAGE value="# return URL 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="# return URL 수정" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="222" y="142" key="#Illuminated_Cloud" timestamp="1588125044809">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2197" y="228" key="#Illuminated_Cloud" timestamp="1588896137871">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2197" y="228" key="#Illuminated_Cloud/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587368553778" />
+    <state x="2197" y="228" key="#Illuminated_Cloud/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588896137871" />
     <state x="222" y="142" key="#Illuminated_Cloud/0.0.1536.824@0.0.1536.824" timestamp="1588125044809" />
     <state x="2472" y="178" key="#Illuminated_Cloud_(LSH_Org)" timestamp="1588131567661">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -1671,10 +1682,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2620" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588817139059" />
-    <state x="2160" y="6" width="1401" height="1004" key="CommitChangelistDialog2" timestamp="1588838712349">
+    <state x="2160" y="6" width="1401" height="1004" key="CommitChangelistDialog2" timestamp="1588839427506">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2160" y="6" width="1401" height="1004" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588838712349" />
+    <state x="2160" y="6" width="1401" height="1004" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588839427506" />
     <state x="386" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587540842511" />
     <state x="2086" y="295" width="1336" height="624" key="DiffContextDialog" timestamp="1587542496471">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -1689,15 +1700,15 @@
     </state>
     <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587966683512" />
     <state x="2356" y="186" key="IDE.errors.dialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588809800206" />
-    <state x="2381" y="162" key="SettingsEditor" timestamp="1588821170673">
+    <state x="2381" y="162" key="SettingsEditor" timestamp="1588840231623">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="162" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588821170673" />
+    <state x="2381" y="162" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588840231623" />
     <state x="369" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587712128070" />
-    <state x="2371" y="183" key="Vcs.Push.Dialog.v2" timestamp="1588838748916">
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2" timestamp="1588839432597">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588838748916" />
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588839432597" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587540866105" />
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587349115070">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -1715,6 +1726,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="484" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1587540761883" />
+    <state x="2259" y="206" key="new project wizard" timestamp="1588896160399">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2259" y="206" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588896160399" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1588810722975">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
